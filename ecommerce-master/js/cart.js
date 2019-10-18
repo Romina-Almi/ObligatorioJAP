@@ -39,7 +39,7 @@ function hidePaymentTypeNotSelected(){
 
 }
 
-function showArticles(articles){
+function showProducts(product){
   let imgid = document.getElementById('img');
   let img = '<img src="'+ product.src+'" class="img-fluid img-thumbnaail">';
   let name = document.getElementById('name');
@@ -63,7 +63,6 @@ function showArticles(articles){
   }
 
 
-
 }
 
 //Función que se ejecuta una vez que se haya lanzado el evento de
@@ -72,7 +71,7 @@ function showArticles(articles){
 document.addEventListener("DOMContentLoaded", function(e){
     getJSONData(CART_INFO_URL).then(function(response){
         product = response.data.articles[0];
-     showProducts(product); 
+    showProducts(product);
    });
 
 
