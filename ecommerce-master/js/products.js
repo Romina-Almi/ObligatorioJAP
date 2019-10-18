@@ -1,5 +1,5 @@
-const ORDER_ASC_BY_COST = "AZ";
-const ORDER_DESC_BY_COST = "ZA";
+const ORDER_ASC_BY_COST = "0-100";
+const ORDER_DESC_BY_COST = "100-0";
 const ORDER_BY_COST = "PRECIO";
 var currentProductsArray = [];
 var currentSortCriteria = undefined;
