@@ -89,7 +89,6 @@ document.addEventListener("DOMContentLoaded", function(e){
     shippingPercentage = 0.5;
     updateTotalCosts();
   });
-
  
 
 });
